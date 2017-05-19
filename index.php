@@ -4,6 +4,7 @@
 		<title>Softers</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="Desarrollo de aplicaciones web pensado para empresas">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
@@ -11,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/slicknav.css">
 		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
+	    <link rel="icon" type="image/png" href="/images/favico.png" />
 		
 		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 
@@ -100,7 +101,7 @@
 			<div class="row">
 				<div class="col-md-12 cBusiness">
 					<h3>Desarrollamos aplicaciónes web de alta <b>calidad</b> y de <b>simple</b> uso.</h3>
-					<h4>Escuchamos los que necesitas, lo analizamos y lo solucionamos.</h4>
+					<h4>Escuchamos lo que necesitas, lo analizamos y lo solucionamos.</h4>
 				</div>
 			</div>
 		</div>
@@ -138,8 +139,9 @@
 						<div class="row">
 							<div class="col-md-12 wwa">
 								<span name="about" ></span>
-								<h3>¿Quiénes somos? ¡Conocenos!</h3>
-								<h4>Somos amantes de las últimas tecnologías.</h4>
+								<h3>¿Cómo trabajamos?</h3>
+								<h4>Todos nuestros proyectos tienen 5 etapas: </h4>
+								<h4>Evaluación, Diseño, Desarrollo, Control de Calidad y Mejora continua.</h4>
 							</div>
 						</div>
 					</div>
@@ -149,27 +151,84 @@
 
 		<div class="container">
 			<div class="row team">
-				<div class="col-md-4 b1">
-						<img class="img-responsive" src="images/picTeam/picT1.png">
-						<h4>Nahuel Lattessi</h4>
-						<h5>CEO</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/>quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
-				</div>
-			
-			
-				<div class="col-md-4">
-						<img class="img-responsive" src="images/picTeam/picT2.png">
-						<h4>Facundo Clarat</h4>
-						<h5>Project Manager</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
-				</div>
-		
-			
-				<div class="col-md-4 b3">
-						<img class="img-responsive" src="images/picTeam/picT3.png">
-						<h4>Analía Pirlone</h4>
-						<h5>Developer</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+				<!--<div class="row newcolmd2">-->
+
+					<!--<div class="col-md-2 b1">-->
+						<!--<div class="textP">-->
+							<!--<div class="text-column-icon">-->
+								<!--<div class="icon-areyou"><img src="images/icon-assessment.png" alt="Assessment"></div>-->
+							<!--</div>-->
+							<!--<h3>Evaluación</h3>-->
+						<!--</div>-->
+					<!--</div>-->
+
+					<!--<div class="col-md-2">-->
+						<!--<div class="textP">-->
+							<!--<div class="text-column-icon">-->
+								<!--<div class="icon-areyou"><img src="images/icon-design.png" alt="Design"></div>-->
+							<!--</div>-->
+							<!--<h3>Diseño</h3>-->
+						<!--</div>-->
+					<!--</div>-->
+
+					<!--<div class="col-md-2">-->
+						<!--<div class="textP">-->
+							<!--<div class="text-column-icon">-->
+								<!--<div class="icon-areyou"><img src="images/icon-development.png" alt="Development"></div>-->
+							<!--</div>-->
+							<!--<h3>Desarrollo</h3>-->
+						<!--</div>-->
+					<!--</div>-->
+
+					<!--<div class="col-md-2">-->
+						<!--<div class="textP">-->
+							<!--<div class="text-column-icon">-->
+								<!--<div class="icon-areyou"><img src="images/icon-assurance.png" alt="Quality Assurance"></div>-->
+							<!--</div>-->
+							<!--<h3>Control de calidad</h3>-->
+						<!--</div>-->
+					<!--</div>-->
+
+					<!--<div class="col-md-2">-->
+						<!--<div class="textP">-->
+							<!--<div class="text-column-icon">-->
+								<!--<div class="icon-areyou img-responsive"><img src="images/icon-deploy.png" alt="Deploy"></div>-->
+							<!--</div>-->
+							<!--<h3>Mejora continua</h3>-->
+						<!--</div>-->
+					<!--</div>-->
+
+				<!--</div>-->
+
+				<div class="jamon">
+					<div class="col-md-1">
+					</div>
+					<div class="col-md-2">
+							<img class="img-responsive steps5" src="images/icon-assessment.png">
+							<h4>Evaluación</h4>
+					</div>
+
+
+					<div class="col-md-2">
+							<img class="img-responsive steps5" src="images/icon-design.png">
+							<h4>Diseño</h4>
+					</div>
+
+
+					<div class="col-md-2 ">
+						<img class="img-responsive steps5" src="images/icon-development.png">
+						<h4>Desarrollo</h4>
+					</div>
+
+					<div class="col-md-2 ">
+						<img class="img-responsive steps5" src="images/icon-assurance.png">
+						<h4>Control de calidad</h4>
+					</div>
+
+					<div class="col-md-2">
+						<img class="img-responsive steps5" src="images/icon-deploy.png">
+						<h4>Mejora continua</h4>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -182,56 +241,55 @@
 		</div>		
 		<div class="container">
 			<div class="row">
+				<div class="textH2">
+					<h2>En que nos especializamos.</h2>
+				</div>
 				<div class="col-md-3 bar">
-					<div class="progB chart" data-percent="64"  data-animate="3500">
+					<div class="progB chart" data-percent="70"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="64">
-							  <span class="percent">64</span>
+							<div class="percentage" data-percent="70">
+							  <span class="percent">70</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>WordPress</h3>
-						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+						<h3>Angular</h3>
 					</div>
 				</div>
 				<div class="col-md-3 bar">
-					<div class="progB chart" data-percent="22"  data-animate="3500">
+					<div class="progB chart" data-percent="95"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="22">
-							  <span class="percent">22</span>
+							<div class="percentage" data-percent="95">
+							  <span class="percent">95</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>HTML5</h3>
-						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+						<h3>PHP</h3>
 					</div>
 				</div>
 				<div class="col-md-3 bar ">
-					<div class="progB chart" data-percent="84"  data-animate="3500">
+					<div class="progB chart" data-percent="80"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="22">
-							  <span class="percent">84</span>
+							<div class="percentage" data-percent="80">
+							  <span class="percent">80</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>CSS3</h3>
-						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+						<h3>Python</h3>
 					</div>
 				</div>
 				<div class="col-md-3 bar ">
-					<div class="progB chart" data-percent="45"  data-animate="3500">
+					<div class="progB chart" data-percent="75"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="45">
-							  <span class="percent">45</span>
+							<div class="percentage" data-percent="75">
+							  <span class="percent">75</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>Woocommerce</h3>
-						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+						<h3>Java</h3>
 					</div>
 				</div>
 			</div>
@@ -260,79 +318,37 @@
 			<div class="portfolio_block columns3   pretty" data-animated="fadeIn">	
 					<div class="element col-sm-4   gall branding">
 						<a class="plS" href="images/prettyPhotoImages/pic1.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic1.jpg" alt="pic1 Gallery"/>
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic1.jpg" alt="communitas"/>
 						</a>
-						<div class="view project_descr ">
-							<h3><a href="#">Recycled Paper - Business Card Mock Up</a></h3>
+						<div class="view project_descr textP">
+							<p>Communitas - Comunidad educativa virtual</p>
 							<ul>
-								<li><i class="fa fa-eye"></i>215</li>
-								<li><a class="heart" href="#"><i class="fa-heart-o"></i>14</a></li>
+								<li></li>
 							</ul>
 						</div>
 					</div>
 					<div class="element col-sm-4  gall branding">
 						<a class="plS" href="images/prettyPhotoImages/pic2.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic2.jpg" alt="pic2 Gallery"/>
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic2.jpg" alt="CNTSV"/>
 						</a>
-						<div class="view project_descr center">
-							<h3><a href="#">Environment Logos Set</a></h3>
+						<div class="view project_descr center textP">
+							<p>CNTSV - Manejo de personal</p>
 							<ul>
-								<li><i class="fa fa-eye"></i>369</li>
-								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>86</a></li>
+								<li></li>
 							</ul>
 						</div>
 					</div>
-					<div class="element col-sm-4  gall web">
+					<div class="element col-sm-4  gall web ">
 						<a class="plS" href="images/prettyPhotoImages/pic3.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic3.jpg" alt="pic3 Gallery"/>
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic3.jpg" alt="Estudio contable"/>
 						</a>
-						<div class="view project_descr ">
-							<h3><a href="#">Beag Simple WEB UI</a></h3>
+						<div class="view project_descr textP">
+							<p>Estudio contable - Manejo de balances y personal</p>
 							<ul>
-								<li><i class="fa fa-eye"></i>400</li>
-								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>124</a></li>
+								<li></li>
 							</ul>
 						</div>
 					</div>
-		
-		
-					
-					<div class="element col-sm-4  gall  text_styles">
-						<a class="plS" href="images/prettyPhotoImages/pic4.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic4.jpg" alt="pic1 Gallery"/>
-						</a>
-						<div class="view project_descr ">
-							<h3><a href="#">Pop Candy Text Effect</a></h3>
-							<ul>
-								<li><i class="fa fa-eye"></i>480</li>
-								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>95</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="element col-sm-4  gall  web">
-						<a class="plS" href="images/prettyPhotoImages/pic5.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic5.jpg" alt="pic1 Gallery"/>
-						</a>
-						<div class="view project_descr center">
-							<h3><a href="#">User Interface Elements</a></h3>
-							<ul>
-								<li><i class="fa fa-eye"></i>215</li>
-								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>14</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="element col-sm-4  gall  polygraphy">
-						<a class="plS" href="images/prettyPhotoImages/pic6.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic6.jpg" alt="pic1 Gallery"/>
-						</a>
-						<div class="view project_descr ">
-							<h3><a href="#">Stationery Branding Mock Up</a></h3>
-							<ul>
-								<li><i class="fa fa-eye"></i>375</li>
-								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>102</a></li>
-							</ul>
-						</div>
-					</div>		
 
 			</div>
 		</div>
@@ -341,13 +357,6 @@
 				jQuery(window).load(function(){
 					items_set = [
 					
-						{category : 'branding', lika_count : '77', view_count : '234', src : 'images/prettyPhotoImages/pic9.jpg', title : 'Foil Mini Badges', content : '' },
-						
-						{category : 'polygraphy', lika_count : '45', view_count : '100', src : 'images/prettyPhotoImages/pic7.jpg', title : 'Darko – Business Card Mock Up', content : '' },
-						
-						{category : 'text_styles', lika_count : '22', view_count : '140', src : 'images/prettyPhotoImages/pic8.jpg', title : 'Woody Poster Text Effect', content : '' }
-						
-
 					];
 					jQuery('.portfolio_block').portfolio_addon({
 						type : 1, // 2-4 columns simple portfolio
@@ -374,7 +383,7 @@
 				<div class="row Ama">
 					<div class="col-md-12">
 					<h3>Contactanos</h3>
-					<p>Completa el formulario y nosotros te llamamos.</p>
+					<p>Completa el formulario y nosotros te contactamos.</p>
 					</div>
 				</div>
 			</div>
@@ -382,14 +391,32 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9 col-xs-12 forma">
-					<form>
+					<?php
+                    if(isset($_POST['name'])) {
+                        $name=$_POST['name'];
+                        $email=$_POST['email'];
+                        $message=$_POST['message'];
+                        if (($name=="")||($email=="")||($message==""))
+                        {
+                            echo "<h3>Por favor ingrese todos los campos requeridos del formulario.</h3>";
+                        }
+                        else{
+                            $from="From: $name<$email>\r\nReturn-path: $email";
+                            $subject="Message sent using your contact form";
+                             mail("fclarat@gmail.com", $subject, $message, $from);
+                            echo "<h3>Recibimos tu mail, enseguida nos pondremos en contacto.</h3>";
+                        }
+                    }
+                    ?>
+					<form id="formContact" action="#contact" method="POST" name="emailForm">
 						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Nombre *'/>
-						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
+						<input type="text" class="col-md-6 col-xs-12 Email" name='email' placeholder='Email *'/>
 						<input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Asunto'/>
-						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Mensaje *'></textarea>
+						<textarea type="text" class="col-md-12 col-xs-12 Message" name='message' placeholder='Mensaje *'></textarea>
+
 						<div class="cBtn col-xs-12">
-							<ul>
-								<li class="send"><a href="#"><i class="fa fa-share"></i>Enviar</a></li>
+                            <ul>
+                                <li class="send"><a ><i class="fa fa-share"></i>Enviar</a></li>
 							</ul>
 						</div>
 					</form>
@@ -401,8 +428,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="line6">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48386.401887313725!2d-73.9407136!3d40.7147117!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1402409149092" width="100%" height="750" frameborder="0" style="border:0"></iframe>
+		<div class="line6 embed-container maps">
+			<!--<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48386.401887313725!2d-73.9407136!3d40.7147117!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1402409149092" width="100%" height="750" frameborder="0" style="border:0"></iframe>-->
+			<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.0374145806097!2d-58.44268287074508!3d-34.60037449877878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0c834ce2b9%3A0x650ccf0957015fe1!2sPadilla+632%2C+C1414AGJ+CABA!5e0!3m2!1ses-419!2sar!4v1495207752354" width="100%" height="750" frameborder="0" style="border:0" ></iframe>-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d821.0374145806097!2d-58.44268287074508!3d-34.60037449877878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1495207911573" width="100%" height="750" frameborder="0" style="border:0" ></iframe>
 		</div>
 
 		<div class="lineBlack">
