@@ -4,7 +4,7 @@
 		<title>Softers</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta name="description" content="Desarrollo de aplicaciones web pensado para empresas">
+	    <meta name="description" content="Desarrollo de aplicaciones web.">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
@@ -63,7 +63,7 @@
 					<div class="navmenu"style="text-align: center;">
 						<ul id="menu">
 							<li class="active" ><a href="#home">Home</a></li>
-							<li><a href="#about">Nosotros</a></li>
+							<li><a href="#about">Cómo trabajamos</a></li>
 							<li><a href="#project">Proyectos</a></li>
 							<li class="last"><a href="#contact">Contacto</a></li>
 						</ul>
@@ -78,7 +78,7 @@
 						<div class="camera_wrap camera_white_skin" id="camera_wrap_1">
 							<div data-thumb="" data-src="images/slides/blank.gif">
 								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>Desarrollamos.</h2>
+									<h2>Escuchamos.</h2>
 								</div>
 							</div>
 							<div data-thumb="" data-src="images/slides/blank.gif">
@@ -88,7 +88,7 @@
 							</div>
 							<div data-thumb="" data-src="images/slides/blank.gif">
 								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>Escuchamos.</h2>
+									<h2>Desarrollamos.</h2>
 								</div>
 							</div>
 						</div><!-- #camera_wrap_1 -->
@@ -100,7 +100,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 cBusiness">
-					<h3>Desarrollamos aplicaciónes web de alta <b>calidad</b> y de <b>simple</b> uso.</h3>
+					<h3>Desarrollamos aplicaciones web de alta <b>calidad</b> y de uso <b>simple</b>.</h3>
 					<h4>Escuchamos lo que necesitas, lo analizamos y lo solucionamos.</h4>
 				</div>
 			</div>
@@ -242,7 +242,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="textH2">
-					<h2>En que nos especializamos.</h2>
+					<h2>En qué nos especializamos.</h2>
 				</div>
 				<div class="col-md-3 bar">
 					<div class="progB chart" data-percent="70"  data-animate="3500">
@@ -382,8 +382,8 @@
 			<div class="container">
 				<div class="row Ama">
 					<div class="col-md-12">
-					<h3>Contactanos</h3>
-					<p>Completa el formulario y nosotros te contactamos.</p>
+					<h3>Contacto</h3>
+					<p>Completá el formulario y nosotros te contactamos.</p>
 					</div>
 				</div>
 			</div>
@@ -396,14 +396,15 @@
                         $name=$_POST['name'];
                         $email=$_POST['email'];
                         $message=$_POST['message'];
+                        $subject=$_POST['Subject'];
                         if (($name=="")||($email=="")||($message==""))
                         {
                             echo "<h3>Por favor ingrese todos los campos requeridos del formulario.</h3>";
                         }
                         else{
                             $from="From: $name<$email>\r\nReturn-path: $email";
-                            $subject="Message sent using your contact form";
-                             mail("fclarat@gmail.com", $subject, $message, $from);
+                            //$subject="Message sent using your contact form";
+                             mail("hola@softers.com.ar", $subject, $message, $from);
                             echo "<h3>Recibimos tu mail, enseguida nos pondremos en contacto.</h3>";
                         }
                     }
@@ -443,7 +444,7 @@
 					<div class="col-md-6 text-right dm">
 						<ul id="downMenu">
 							<li class="active"><a href="#home">Home</a></li>
-							<li><a href="#about">Nosotros</a></li>
+							<li><a href="#about">Cómo trabajamos</a></li>
 							<li><a href="#project1">Proyectos</a></li>
 							<li class="last"><a href="#contact">Contacto</a></li>
 						</ul>
