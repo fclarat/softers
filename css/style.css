@@ -2085,7 +2085,14 @@ margin-bottom: 35px !important;
 	max-width: 115px;
 }
 
-
+#game {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	z-index: 100000;
+	display: none;
+}
 
 /**/
 
